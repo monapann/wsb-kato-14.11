@@ -39,3 +39,17 @@ document.getElementById("sampleTxt").innerHTML=`<div class='new' style='backgrou
 function changeText(){
     document.getElementById("sposob1").innerText = "nowy tekst"
 }
+
+//sposób 2
+document.getElementById("sampleBtn").onclick = changeText2;
+
+function changeText2(){
+    document.getElementById("sposob2").innerText = "nowy tekst"
+}
+
+//sposób 3
+document.getElementById("sampleBtn2").addEventListener("click",changeText3)
+
+function changeText3(){
+    document.getElementById("sposob3").innerText = "nowy tekst"
+}
