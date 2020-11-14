@@ -67,3 +67,12 @@ const y = 20;
 const add = (a,b) => a+b;
 document.getElementById("zad1_sum").innerText = add(x,y);
 
+//////////////// zadanie 2
+
+function sprawdzenie(){
+    const check = document.getElementById("age").getAttribute("id")
+    console.log(check)
+    const age = document.getElementById("age").value || 0;
+    console.log(age)
+    age>=18 ? alert("pełnoletni") : alert("niepełnoletni")
+}
