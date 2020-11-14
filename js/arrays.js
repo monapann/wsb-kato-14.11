@@ -57,9 +57,13 @@ for (let numbersArray of numbersArrays){
 // wygeneruj 10-elementową tablicę liczb losowych, a następnie wypisz te liczby w konsoli
 
 
-// const randonNumber = Math.random()*(max-min) + min
- const randomNumber = Math.floor(Math.random()*(100-0) + 0)
- console.log(randomNumber);
- 
+// const randonNumber = Math.random()*(max-min) + min 
 
+let arrNumbers = [];
+
+for (let i=0;i<10;i++){
+    const randomNumber = Math.floor(Math.random()*(100-0) + 0)
+    arrNumbers.push(randomNumber)    
+}
+console.log(arrNumbers);
 
