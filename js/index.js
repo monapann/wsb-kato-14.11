@@ -52,3 +52,29 @@ console.log(boxSizes.volume())
 
 // console.log(volumeOfBox(boxSizes))
 
+// Zadanie 2
+
+// Napisz funkcję, która przyjmuje dwa parametry: liczbę oraz obiekt z wartościami min i max. Sprawdź, czy podana liczba zawiera się w przedzialen <min;max>
+
+// isInRange(4, { min: 0, max: 5 }) ➞ true
+
+// isInRange(4, { min: 4, max: 5 }) ➞ true
+
+// isInRange(4, { min: 6, max: 10 }) ➞ false
+
+// isInRange(5, { min: 5, max: 5 }) ➞ true
+
+const myRange = {
+    min: 0,
+    max: 5
+}
+
+// function isInRange(myNumber,range){
+//     return myNumber>= range.min && myNumber<= range.max
+// }
+
+// console.log(isInRange(6,myRange))
+
+const isInRange = (myNumber,range) => (myNumber>= range.min && myNumber<= range.max)
+
+console.log(isInRange(8,myRange))
