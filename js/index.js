@@ -16,7 +16,7 @@ const employee = {
         return `Pracownik ${this.firstName} ${this.familyName}, w wieku ${this.age} zatrudniony jest na stanowisku ${this.occupation} i jego pensja początkowa to ${this["start salary"]}`
     }
 }
-console.log(employee.introduction())
+// console.log(employee.introduction())
 // console.log(employee["start salary"])
 
 
@@ -30,9 +30,17 @@ console.log(employee.introduction())
 const boxSizes = {
     width: 10,
     height: 20,
-    length: 10
+    length: 10,
+    volume: function(){
+        console.log(this)
+        return this.width*this.length*this.height
+    }
+    // volume: () => {
+    //     console.log(this)
+    //     this.width*this.length*this.height
+    // }
 }
-
+console.log(boxSizes.volume())
 // function volumeOfBox(box){
 //     // console.log(box.height)
 //     return `Objętość pudełka wynosi: ${box.height * box.width * box.length}`
@@ -40,6 +48,7 @@ const boxSizes = {
 
 // console.log(volumeOfBox(boxSizes))
 
-const volumeOfBox = box => `Objętość pudełka wynosi: ${box.height * box.width * box.length}`
+// const volumeOfBox = box => ( `Objętość pudełka wynosi: ${box.height * box.width * box.length}`)
 
-console.log(volumeOfBox(boxSizes))
+// console.log(volumeOfBox(boxSizes))
+
