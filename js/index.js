@@ -10,7 +10,7 @@ const employee = {
     familyName: "Dłubis",
     age: 32,
     occupation: "dev",
-    "startSalary": 3200,
+    "start salary": 3200,
     introduction: function() {
         // return "Pracownik " + employee.firstName
         return `Pracownik ${this.firstName} ${this.familyName}, w wieku ${this.age} zatrudniony jest na stanowisku ${this.occupation} i jego pensja początkowa to ${this["start salary"]}`
