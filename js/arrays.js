@@ -67,3 +67,11 @@ for (let i=0;i<10;i++){
 }
 console.log(arrNumbers);
 
+// Zadanie 2.
+// Utwórz funkcję tworzącą tablicę 10-elementową z wylosowanymi liczbami. Następnie napisz nową funkcję, która przyjmuje tę tablicę i zwraca tylko wartości parzyste.
+
+noOdds([1, 2, 3, 4, 5, 6, 7, 8]) ➞ [2, 4, 6, 8]
+
+noOdds([43, 65, 23, 89, 53, 9, 6]) ➞ [6]
+
+noOdds([718, 991, 449, 644, 380, 440]) ➞ [718, 644, 380, 440]
