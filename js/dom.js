@@ -31,3 +31,11 @@ document.getElementById("sampleTxt").innerHTML=`<div class='new' style='backgrou
 // document.getElementById("sampleTxt").textContent="Nowy tekst"
 //dodanie tekstu innerText
 // document.getElementById("sampleTxt").innerText="Nowy tekst"
+
+
+//zdarzenia
+
+//sposób 1
+function changeText(){
+    document.getElementById("sposob1").innerText = "nowy tekst"
+}
