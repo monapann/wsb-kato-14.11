@@ -39,5 +39,18 @@ console.log("cała tablica", arr);
 console.log("slice", arr.slice(3,5));
 console.log("cała tablica", arr);
 
+// interowanie po tablicy 
+
+const numbersArrays = [23,543,6,57,54,3,21,23,24];
+
+// sposób 1, 
+for (let i=0;i<numbersArrays.length;i++){
+    console.log("index" + i + ", wartość: " + numbersArrays[i])
+}
+// sposób 2. 
+for (let numbersArray of numbersArrays){
+    console.log(numbersArray);
+    
+}
 
 
