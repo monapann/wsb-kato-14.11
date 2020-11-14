@@ -87,7 +87,10 @@ function generateArray(){
 function noOdds(arr){
     const subArr = [];
     for(let item of arr){
-        item % 2 == 0 ? subArr.push(item) : null
+        // item % 2 == 0 ? subArr.push(item) : null 
+        if (item % 2 == 0) {
+            subArr.push(item)
+        }
     }
 
     return subArr
