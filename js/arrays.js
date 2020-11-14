@@ -50,7 +50,16 @@ for (let i=0;i<numbersArrays.length;i++){
 // sposób 2. 
 for (let numbersArray of numbersArrays){
     console.log(numbersArray);
-    
 }
+
+//Zadanie 1
+
+// wygeneruj 10-elementową tablicę liczb losowych, a następnie wypisz te liczby w konsoli
+
+
+// const randonNumber = Math.random()*(max-min) + min
+ const randomNumber = Math.floor(Math.random()*(100-0) + 0)
+ console.log(randomNumber);
+ 
 
 
