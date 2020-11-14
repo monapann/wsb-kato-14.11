@@ -57,3 +57,13 @@ function changeText3(){
 document.getElementById("sampleBtn3").addEventListener("click",function(){
     document.getElementById("sposob4").innerText = "nowy tekst"
 })
+
+
+//////////////// zadanie 1 
+
+const x = 10;
+const y = 20;
+
+const add = (a,b) => a+b;
+document.getElementById("zad1_sum").innerText = add(x,y);
+
