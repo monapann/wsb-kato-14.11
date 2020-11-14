@@ -15,3 +15,13 @@ console.log(identifyID_7);
 const identifyID_8 = document.querySelector(".container .text");
 console.log(identifyID_8);
 
+////////// manipulowanie DOMem
+
+//dodanie klasy bcg z elementu o ID container
+document.getElementById("container").classList.add("bcg");
+//usunięcie klasy container z elementu o ID container
+document.getElementById("container").classList.remove("container");
+//sprawdzenie, czy ID container posiada klasę bcg
+console.log(document.getElementById("container").classList.contains("bcg"));
+//włączanie-wyłączanie klasy active w elemencie o ID hyp
+document.getElementById("hyp").classList.toggle("active")
