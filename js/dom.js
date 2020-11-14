@@ -76,3 +76,14 @@ function sprawdzenie(){
     console.log(age)
     age>=18 ? alert("pełnoletni") : alert("niepełnoletni")
 }
+
+//////////////// zadanie 3
+
+document.getElementById("sum").addEventListener("click",sum);
+
+function sum(){
+    const num1 = parseFloat(document.getElementById("num1").value);
+    const num2 = parseFloat(document.getElementById("num2").value);
+    document.getElementById("result").innerText = num1+num2;
+    console.log(typeof num1)
+}
