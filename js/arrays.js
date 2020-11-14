@@ -26,11 +26,18 @@ console.log("Tablica po dodaniu ostatniego argumentu: " + arr);
 //usunięcie wartości z tablicy
 delete arr[1]
 console.log(arr);
-//usunięcie ostatniego elementu z tablicy
+//usunięcie ostatniego elementu tablicy
 arr.pop();
 console.log(arr);
-//usunięcie pierwszego elementu z tablicy
+//usunięcie pierwszego elementu tablicy
 arr.shift();
 console.log(arr);
+//usunięcie kilku elementów tablicy
+console.log("splice" ,arr.splice(2,1))
+console.log("cała tablica", arr);
+//wydobycie fragmentów tablicy i zwrócenie ich jako nowa tablica
+console.log("slice", arr.slice(3,5));
+console.log("cała tablica", arr);
+
 
 
