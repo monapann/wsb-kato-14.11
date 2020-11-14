@@ -53,3 +53,7 @@ document.getElementById("sampleBtn2").addEventListener("click",changeText3)
 function changeText3(){
     document.getElementById("sposob3").innerText = "nowy tekst"
 }
+//sposób 4
+document.getElementById("sampleBtn3").addEventListener("click",function(){
+    document.getElementById("sposob4").innerText = "nowy tekst"
+})
