@@ -11,3 +11,5 @@ const employee = {
     age: 32,
     occupation: "dev"
 }
+
+console.log(employee)
