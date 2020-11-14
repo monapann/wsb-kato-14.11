@@ -25,3 +25,9 @@ document.getElementById("container").classList.remove("container");
 console.log(document.getElementById("container").classList.contains("bcg"));
 //włączanie-wyłączanie klasy active w elemencie o ID hyp
 document.getElementById("hyp").classList.toggle("active")
+//dodanie kodu HTML
+document.getElementById("sampleTxt").innerHTML=`<div class='new' style="background-color: red">Nowy tekst</div>`
+//dodanie tekstu TextContent
+// document.getElementById("sampleTxt").textContent="Nowy tekst"
+//dodanie tekstu innerText
+// document.getElementById("sampleTxt").innerText="Nowy tekst"
