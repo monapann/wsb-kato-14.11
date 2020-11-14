@@ -83,6 +83,7 @@ function generateArray(){
     }
     return subArr
 }
+console.log("generateArray", generateArray())
 
 function noOdds(arr){
     const subArr = [];
@@ -97,3 +98,6 @@ function noOdds(arr){
 }
 
 console.log(noOdds(generateArray()));
+
+const someExample = generateArray();
+console.log("generateArray po przypisaniu" ,someExample)
